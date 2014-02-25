@@ -1,3 +1,5 @@
+
+
 class Cinema
 	def initialize(movies = [])
 		#Si creo un cine si no le paso el array me lo crea por defecto
