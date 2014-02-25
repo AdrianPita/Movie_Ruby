@@ -1,5 +1,5 @@
-require 'rspec'
-require_relative 'cinema'
+require 'spec_helper'
+require 'movie'
 
 describe Movie do 
 	describe 'atributes' do
