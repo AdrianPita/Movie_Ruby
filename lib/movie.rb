@@ -15,7 +15,7 @@ class Movie
 		title <=> other_movie.title	
 	end 
 	#Se usa con el sort de la Linea 23
-	def review
+	def rating
 		if reviews.any?
 			ratings = reviews.map {|review| review.rating}
 			total = ratings.reduce(0) {|total, rating| total += rating}

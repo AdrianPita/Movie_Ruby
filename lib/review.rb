@@ -1,11 +1,23 @@
 
 
 class reviews
-	attr_reader :title, :text, :rating
+	attr_reader :title, :comments, :rating
 
-	def initialize (title, text, rating)
+	def initialize (title, comments, rating)
 		@title = title
-		@text = text
+		@comments = []
 		@rating = rating
 	end
+
+	def delete_comments
+        @comments = []
+    end
+
+    def add_comment(comment)
+        @comments = comment
+    end
+    
+    def get_comments
+        @comments
+    end
 end
