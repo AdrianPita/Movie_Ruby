@@ -1,4 +1,4 @@
-
+require 'movie'
 
 class Cinema
 	def initialize(movies = [])

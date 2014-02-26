@@ -1,6 +1,6 @@
 
 
-class reviews
+class Review
 	attr_reader :title, :comments, :rating
 
 	def initialize (title, comments, rating)
@@ -15,9 +15,5 @@ class reviews
 
     def add_comment(comment)
         @comments = comment
-    end
-    
-    def get_comments
-        @comments
     end
 end

@@ -1,5 +1,6 @@
 require 'spec_helper'
 require 'cinema'
+require 'movie'
 
 describe 'Cinema' do 
 		describe 'adding movies to our cinema' do
